@@ -1,0 +1,17 @@
+baseurl = "http://www.example.com"
+title = "berkay cinar"
+theme = "hugo-coder"
+
+[params]
+  author = "Berkay Cinar"
+  info = "Full Stack DevOps"
+  description = "BerkayCinar's personal website"
+  keywords = "blog,developer,personal"
+  #avatarurl = "images/avatar.jpeg"
+  #gravatar = "john.doe@example.com"
+
+  footercontent = "berkaycinar@icloud.com"
+  hideFooter = false
+  hideCredits = false
+  hideCopyright = false
+  since = 2020
