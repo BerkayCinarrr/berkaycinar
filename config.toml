@@ -1,4 +1,4 @@
-baseurl = "http://www.example.com"
+baseurl = "https://white-grass-05948d403.azurestaticapps.net/"
 title = "berkay cinar"
 theme = "hugo-coder"
 
@@ -33,11 +33,11 @@ theme = "hugo-coder"
   weight = 3
   url = "https://linkedin.com/in/bcinar/"
 
-# Menu links
-[[menu.main]]
-  name = "About"
-  weight = 2
-  url = ""
+  # Menu links
+  [[menu.main]]
+    name = "About"
+    weight = 2
+    url = ""
   [languages]
     [languages.en]
         languagename = "English"
@@ -47,22 +47,22 @@ theme = "hugo-coder"
             [[languages.en.menu.main]]
             name = "About"
             weight = 1
-            url = "about/"
+            url = ""
 
             [[languages.en.menu.main]]
             name = "Blog"
             weight = 2
-            url = "posts/"
+            url = ""
 
             [[languages.en.menu.main]]
             name = "Projects"
             weight = 3
-            url = "projects/"
+            url = ""
 
             [[languages.en.menu.main]]
             name = "Contact me"
             weight = 5
-            url = "contact/"
+            url = ""
 
 
     [languages.tr-tr]
