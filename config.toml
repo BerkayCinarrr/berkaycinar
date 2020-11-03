@@ -4,7 +4,7 @@ theme = "hugo-coder"
 
 [params]
   author = "Berkay Cinar"
-  info = "Full Stack DevOps"
+  info = "Software Engineer"
   description = "BerkayCinar's personal website"
   keywords = "blog,developer,personal"
   #avatarurl = "images/avatar.jpeg"
@@ -15,3 +15,85 @@ theme = "hugo-coder"
   hideCredits = false
   hideCopyright = false
   since = 2020
+
+ # Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/berkaycinarrr/"
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa fa-gitlab fa-2x"
+  weight = 2
+  url = "https://gitlab.com/"
+[[params.social]]
+  name = "Linkedin"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 3
+  url = "https://linkedin.com/in/bcinar/"
+
+# Menu links
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = ""
+  [languages]
+    [languages.en]
+        languagename = "English"
+
+        [languages.en.menu]
+
+            [[languages.en.menu.main]]
+            name = "About"
+            weight = 1
+            url = "about/"
+
+            [[languages.en.menu.main]]
+            name = "Blog"
+            weight = 2
+            url = "posts/"
+
+            [[languages.en.menu.main]]
+            name = "Projects"
+            weight = 3
+            url = "projects/"
+
+            [[languages.en.menu.main]]
+            name = "Contact me"
+            weight = 5
+            url = "contact/"
+
+
+    [languages.tr-tr]
+        languagename = "Turkish"
+        title = "Berkay Çınar"
+
+        [languages.tr-tr.params]
+            author = "Berkay Çınar"
+            info = "Yazılım Mühendisi"
+            description = "Berkay Çınar'ın Kişisel Web Sitesi"
+            keywords = "blog,yazılım,bilgisayar"
+            footercontent = "berkaycinar@icloud.com"
+
+        [languages.tr-tr.menu]
+
+            [[languages.tr-tr.menu.main]]
+            name = "Hakkında"
+            weight = 1
+            url = ""
+
+            [[languages.tr-tr.menu.main]]
+            name = "Blog"
+            weight = 2
+            url = ""
+
+            [[languages.tr-tr.menu.main]]
+            name = "Projeler"
+            weight = 3
+            url = ""
+
+            [[languages.tr-tr.menu.main]]
+            name = "İletişim"
+            weight = 5
+            url = ""
