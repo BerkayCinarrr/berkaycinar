@@ -60,7 +60,7 @@ theme = "hugo-coder"
             url = ""
 
             [[languages.en.menu.main]]
-            name = "Contact me"
+            name = "Contact"
             weight = 5
             url = ""
 
@@ -74,7 +74,7 @@ theme = "hugo-coder"
             info = "Yazılım Mühendisi"
             description = "Berkay Çınar'ın Kişisel Web Sitesi"
             keywords = "blog,yazılım,bilgisayar"
-            footercontent = "berkaycinar@icloud.com"
+            footercontent = ""
 
         [languages.tr-tr.menu]
 
