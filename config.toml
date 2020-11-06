@@ -7,14 +7,12 @@ theme = "hugo-coder"
   info = "Software Engineer"
   description = "BerkayCinar's personal website"
   keywords = "blog,developer,personal"
-  #avatarurl = "images/avatar.jpeg"
-  #gravatar = "john.doe@example.com"
-
-  footercontent = "berkaycinar@icloud.com"
   hideFooter = false
   hideCredits = false
   hideCopyright = false
   since = 2020
+
+  colorScheme = "auto"
 
  # Social links
 [[params.social]]
@@ -74,7 +72,6 @@ theme = "hugo-coder"
             info = "Yazılım Mühendisi"
             description = "Berkay Çınar'ın Kişisel Web Sitesi"
             keywords = "blog,yazılım,bilgisayar"
-            footercontent = ""
 
         [languages.tr-tr.menu]
 
