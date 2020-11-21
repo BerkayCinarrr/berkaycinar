@@ -1,10 +1,10 @@
 baseurl = "https://white-grass-05948d403.azurestaticapps.net/"
-title = "berkay cinar"
+title = "Berkay Cinar"
 theme = "hugo-coder"
 
 [params]
   author = "Berkay Cinar"
-  info = "Software Engineer"
+  info = "Full Stack DevOps"
   description = "BerkayCinar's personal website"
   keywords = "blog,developer,personal"
   hideFooter = false
@@ -32,10 +32,6 @@ theme = "hugo-coder"
   url = "https://linkedin.com/in/bcinar/"
 
   # Menu links
-  [[menu.main]]
-    name = "About"
-    weight = 2
-    url = ""
   [languages]
     [languages.en]
         languagename = "English"
@@ -59,7 +55,7 @@ theme = "hugo-coder"
 
             [[languages.en.menu.main]]
             name = "Contact"
-            weight = 5
+            weight = 4
             url = ""
 
 
@@ -69,7 +65,7 @@ theme = "hugo-coder"
 
         [languages.tr-tr.params]
             author = "Berkay Çınar"
-            info = "Yazılım Mühendisi"
+            info = "Full Stack DevOps"
             description = "Berkay Çınar'ın Kişisel Web Sitesi"
             keywords = "blog,yazılım,bilgisayar"
 
@@ -92,5 +88,5 @@ theme = "hugo-coder"
 
             [[languages.tr-tr.menu.main]]
             name = "İletişim"
-            weight = 5
+            weight = 4
             url = ""
