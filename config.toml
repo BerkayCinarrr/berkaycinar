@@ -39,7 +39,7 @@ theme = "hugo-coder"
         [languages.en.menu]
 
             [[languages.en.menu.main]]
-            name = "About"
+            name = "About me"
             weight = 1
             url = ""
 
@@ -49,13 +49,8 @@ theme = "hugo-coder"
             url = ""
 
             [[languages.en.menu.main]]
-            name = "Projects"
-            weight = 3
-            url = ""
-
-            [[languages.en.menu.main]]
             name = "Contact"
-            weight = 4
+            weight = 3
             url = ""
 
 
@@ -82,11 +77,6 @@ theme = "hugo-coder"
             url = ""
 
             [[languages.tr-tr.menu.main]]
-            name = "Projeler"
-            weight = 3
-            url = ""
-
-            [[languages.tr-tr.menu.main]]
             name = "İletişim"
-            weight = 4
+            weight = 3
             url = ""
